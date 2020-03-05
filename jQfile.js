@@ -1,12 +1,12 @@
 $(function(){
-    $("#add").click(function(){
+    $("#addbtn").click(function(){
         var v1 = $("input").val();
         if(v1 != ''){
-            var elem = $("<li></li>").text(v1);
-            $(elem).append("<button class='rem'>X</button");
-            $("#list").append(elem);
+            var el = $("<li></li>").text(v1);
+            $(el).append("<button class='rmbtn'>X</button");
+            $("#list").append(el);
             $("input").val("");
-            $(".rem").click(function(){
+            $(".rmbtn").click(function(){
                 $(this).parent().remove();
             });
         }

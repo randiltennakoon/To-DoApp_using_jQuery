@@ -1,0 +1,12 @@
+h1{
+    color: blue;
+}
+
+.rem{
+    color: red;
+    background-color: white;
+    border-style: solid;
+    border-color: gray;
+    cursor: pointer;
+    margin-left: 5px;
+}

@@ -5,8 +5,7 @@ h1{
 .rem{
     color: red;
     background-color: white;
-    border-style: solid;
-    border-color: gray;
+    border-color:white;
     cursor: pointer;
     margin-left: 5px;
 }
